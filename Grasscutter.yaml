@@ -1,5 +1,0 @@
-```config
-docker run --rm -it -v /home/res/resources:/home/Grasscutter/resources -p 22102:22102/udp -p 443:443/tcp siakbary/dockergc:dev-2.7 -d 'mongodb+srv://Koyang:010619HYy@mongodb.zsfia.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' -b '47.97.10.137' -m 'Welcome to private server,if you have any question,please send to mr.koyangyang@gmail.com' -f 'yes'
-account create Koyang 1
-permission add Koyang *
-```
