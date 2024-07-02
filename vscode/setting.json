@@ -1,6 +1,4 @@
 {
-    "workbench.startupEditor": "none",
-    "workbench.iconTheme": "material-icon-theme",
     "[python]": {
       "editor.formatOnSave": true,
       // "editor.codeActionsOnSave": {
@@ -18,7 +16,7 @@
     "code-runner.executorMap": {
       "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
       "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-      "python": "C:\\Work\\Codes\\SDK\\miniconda3\\envs\\all\\python.exe -u",
+      "python": "C:\\Users\\yang\\.conda\\envs\\envs\\all\\python.exe -u",
       "go": "go run"
     },
     "code-runner.runInTerminal": true,
@@ -42,10 +40,10 @@
     "editor.suggestSelection": "recentlyUsed",
     "window.dialogStyle": "custom",
     "debug.showBreakpointsInOverviewRuler": true,
-    "editor.lineNumbers": "off",
     "explorer.confirmDelete": false,
     "editor.minimap.enabled": false,
-    "editor.fontFamily": "Cascadia Code, Fira Code",
+    //"editor.fontFamily": "Cascadia Code, Fira Code",
+    "editor.fontFamily": "Maple Mono SC NF",
     "editor.fontLigatures": true,
     "extensions.ignoreRecommendations": true,
     "files.exclude": {
@@ -62,10 +60,37 @@
       "**/logs": true
     },
     "remote.SSH.remotePlatform": {
-      "GPU": "linux"
+      "GPU": "linux",
+      "Ubuntu122": "linux",
+      "connect.bjb1.seetacloud.com": "linux",
+      "GPUXZH": "linux",
+      "122.207.108.7": "linux"
     },
-    "workbench.colorTheme": "One Dark Pro",
+    "workbench.colorTheme": "Andromeda",
     "typescript.locale": "zh-CN",
-    "explorer.confirmPasteNative": false
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDragAndDrop": false,
+    "update.mode": "none",
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "update.enableWindowsBackgroundUpdates": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "extensions.autoCheckUpdates": false,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.autofetch": true,
+    "workbench.startupEditor": "none",
+    "explorer.compactFolders": false,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "python.createEnvironment.trigger": "off"
   }
-  
