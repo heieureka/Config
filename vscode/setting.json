@@ -1,5 +1,4 @@
 {
-
   "editor.fontSize": 16,
   "search.sortOrder": "modified",
   "files.autoSave": "afterDelay",
@@ -46,7 +45,6 @@
   "extensions.autoUpdate": "onlyEnabledExtensions",
   "update.enableWindowsBackgroundUpdates": false,
   "security.workspace.trust.untrustedFiles": "open",
-  "extensions.autoCheckUpdates": false,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
@@ -54,5 +52,12 @@
   "explorer.compactFolders": false,
   "github.copilot.editor.enableAutoCompletions": true,
   "remote.autoForwardPortsSource": "hybrid",
-  "workbench.colorTheme": "Code Blue"
+  "remote.SSH.remotePlatform": {
+    "cpu": "linux",
+    "gpu": "linux",
+    "zgpu": "linux"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Ayu Light",
+  "editor.rename.enablePreview": false # 防止新打开页面覆盖原页面
 }
