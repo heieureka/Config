@@ -1,6 +1,5 @@
 proxy-groups:
   - name: ProxyMode
-    include-all: true
     type: select
     proxies:
       - Auto
@@ -13,16 +12,20 @@ proxy-groups:
       - 🇰🇷 South Korea
       - 🇩🇪 Germany
 
+  - name: Select
+    include-all: true
+    type: select
+
   - name: Auto
     type: url-test
     include-all: true
     interval: 300
 
   - name: Apple
-    include-all: true
     type: select
     proxies:
       - DIRECT
+      - Select
       - ProxyMode
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
@@ -34,10 +37,10 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: BiliBili
-    include-all: true
     type: select
     proxies:
       - DIRECT
+      - Select
       - ProxyMode
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
@@ -49,10 +52,10 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: Netflix
-    include-all: true
     type: select
     proxies:
       - ProxyMode
+      - Select
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
       - 🇯🇵 Japan
@@ -63,10 +66,10 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: Disney
-    include-all: true
     type: select
     proxies:
       - ProxyMode
+      - Select
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
       - 🇯🇵 Japan
@@ -77,9 +80,9 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: TikTok
-    include-all: true
     type: select
     proxies:
+      - Select
       - ProxyMode
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
@@ -91,10 +94,10 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: GlobalMedia
-    include-all: true
     type: select
     proxies:
       - ProxyMode
+      - Select
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
       - 🇯🇵 Japan
@@ -105,10 +108,10 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: OpenAI
-    include-all: true
     type: select
     proxies:
       - 🇺🇸 United States
+      - Select
       - ProxyMode
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
@@ -119,10 +122,10 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: Google
-    include-all: true
     type: select
     proxies:
       - ProxyMode
+      - Select
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
       - 🇯🇵 Japan
@@ -133,10 +136,10 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: Microsoft
-    include-all: true
     type: select
     proxies:
       - DIRECT
+      - Select
       - ProxyMode
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
@@ -148,10 +151,10 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: Steam
-    include-all: true
     type: select
     proxies:
       - DIRECT
+      - Select
       - ProxyMode
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
@@ -163,9 +166,9 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: PayPal
-    include-all: true
     type: select
     proxies:
+      - Select
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
       - 🇯🇵 Japan
@@ -176,10 +179,10 @@ proxy-groups:
       - 🇩🇪 Germany
 
   - name: Telegram
-    include-all: true
     type: select
     proxies:
       - ProxyMode
+      - Select
       - 🇭🇰 Hong Kong
       - 🇸🇬 Singapore
       - 🇯🇵 Japan
