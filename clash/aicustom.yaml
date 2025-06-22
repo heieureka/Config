@@ -13,5 +13,11 @@ payload:
   #- DST-PORT,80,DIRECT #匹配数据目标端口(直连)
   #- SRC-PORT,7777,DIRECT #匹配数据源端口(直连)
   #- GEOSITE,category-public-tracker,DIRECT #匹配GEOSITE数据库规则(直连)
-  # Google Scholar
-  - DOMAIN-SUFFIX,scholar.google.com
+  # AI Studio
+  - DOMAIN,aistudio.google.com
+  # Notebooklm
+  - DOMAIN-SUFFIX,notebooklm.google
+  # Jetbrains AI
+  - DOMAIN-SUFFIX,jetbrains.com
+  - DOMAIN-SUFFIX,api.jetbrains.ai
+  - DOMAIN-SUFFIX,grazie.ai
