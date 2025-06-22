@@ -21,13 +21,4 @@ payload:
   - DOMAIN-SUFFIX,jetbrains.com
   - DOMAIN-SUFFIX,api.jetbrains.ai
   - DOMAIN-SUFFIX,grazie.ai
-  # tailscale
-  - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
-  - IP-CIDR,192.168.1.0/24,DIRECT,no-resolve
-  # infini
-  - DOMAIN-SUFFIX,infini.money,Japan
-  # saduck
-  - DOMAIN-SUFFIX,saduck.top,DIRECT
-  # jsj.top
-  - DOMAIN-SUFFIX,jsj.top,DIRECT
-  - DOMAIN-SUFFIX,scholar.google.com,节点选择
+  - DOMAIN-SUFFIX,scholar.google.com
